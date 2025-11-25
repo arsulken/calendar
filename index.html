@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Календарь дня</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app__header">
+      <h1>Календарь дня</h1>
+      <p class="app__subtitle">
+        Отображение текущей даты и заметок на выбранный день
+      </p>
+    </header>
+
+    <main class="app__content">
+      <section class="date-panel">
+        <label for="date" class="date-panel__label">Выберите дату:</label>
+        <input type="date" id="date" class="date-panel__input">
+        <p class="date-panel__current">
+          Текущая дата: <span data-current-date></span>
+        </p>
+      </section>
+
+      <section class="notes">
+        <h2 class="notes__title">Заметки на день</h2>
+        <textarea id="note" class="notes__textarea" placeholder="Введите заметку для выбранной даты"></textarea>
+        <div class="notes__controls">
+          <button id="saveBtn" class="btn">Сохранить</button>
+          <span id="status" class="notes__status"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app__footer">
+      <p>Данные сохраняются локально в браузере (localStorage).</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
