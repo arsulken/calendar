@@ -36,11 +36,17 @@
 3. Открыть файл `index.html` в браузере.
 
 ## Скриншоты
+<img width="1440" height="900" alt="Снимок экрана 2025-11-25 в 11 11 31" src="https://github.com/user-attachments/assets/7a292268-40a4-4fab-a75e-f871c11ba252" />
 
-Добавьте сюда скриншоты вашего приложения, например:
+<img width="1440" height="900" alt="Снимок экрана 2025-11-25 в 11 12 22" src="https://github.com/user-attachments/assets/c2893422-bbad-4547-a265-2dde9a56d94f" />
 
-![Главный экран](screenshots/main.png)
-![Заметка на день](screenshots/note-filled.png)
+<img width="1440" height="900" alt="Снимок экрана 2025-11-25 в 11 12 01" src="https://github.com/user-attachments/assets/584c560c-948f-4e72-878e-802873c72025" />
+
+<img width="1433" height="900" alt="Снимок экрана 2025-11-25 в 11 11 38" src="https://github.com/user-attachments/assets/ba7efdd8-7c86-498d-88e0-801f1732db07" />
+
+
+
+
 
 ## Структура
 
